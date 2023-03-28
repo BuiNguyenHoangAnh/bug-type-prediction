@@ -1,0 +1,160 @@
+valueID,note
+b_000,[Create new user] Warning message is displayed if a valid Company name is entered but not selected in the list
+b_001,[Basic Geo Map View] No map is displayed
+b_002,[View & Create user under tenant] No messages/ errors/ company name are shown when create user under inactive tenant
+b_003,[Asset list view - UI] Last inspection date format is not the same with the design
+b_004,[Search asset - UI] UI for no search result is not the same as the design
+b_005,[Timeline - UI] Inspection date format is not the same with design
+b_006,[Search asset - UI] [Empty asset list] must be displayed if user does not have any asset instead of [no search result]
+b_007,[Service integration - UI] Service information page is not the same as the design
+b_008,[Service integration - UI] Style of tab title is incorrect when the tab bar is displayed horizontally
+b_009,[Service integration - UI] The shadow of cards in the last row are covered
+b_010,[Service integration - UI] No tooltips are displayed if the string is displayed with ellipses
+b_011,[Service integration - UI] the message [Empty service list] is wrong position
+b_012,[Service integration - UI] The message is not grammatically correct
+b_013,[Service integration - UI] Warning messages are displayed for at the same time
+b_014,[Service integration - UI] There is no message displayed when data is not entered in the description field
+b_015,[Integrate application - UI] [Application name] must be replaced by application name in title of Permission Assignment page
+b_016,[Integrate application - UI] Style of tab title is incorrect when the tab bar is displayed horizontally
+b_017,[Integrate application - UI] The shadow of cards in the last row are covered
+b_018,[Integrate application - UI] The border of application card is not the same as the design
+b_019,[Integrate application - UI] No loading indicator for application information page
+b_020,[Integrate application - UI] Behavior of cards in Application/Service Overview page inconsistent with the cards in Launcher/ Tenant Overview page
+b_021,[Integrate application - UI] Static content is not the same as the design
+b_022,[Integrate application - UI] The position of [Empty application list] message is incorrect
+b_023,[Integrate application - UI] No message is displayed when Application information cannot be loaded
+b_024,[Integrate application - UI] User is not redirected to 403 page when user is not Authorized
+b_025,[Integrate application - UI] No tooltips are displayed if the string is displayed with ellipses
+b_026,[Integrate application - UI] Scrollbar is displayed even though the viewport is large
+b_027,[Integrate application - UI] Static content is not the same as the design
+b_028,[Integrate application - UI] No loading indicator when assigning permission
+b_029,[Integrate application - UI] Style of Assign Permission Page is not the same as the design
+b_030,[Service integration - UI] UI is broken if message for the service that does not exist in the system is displayed
+b_031,[Integrate application - UI] The cursor displays as pointer but cannot do anything
+b_032,[Integrate application - UI] Message is covered by Permission table on Assign permission page
+b_033,[Integrate application - UI logic] No message or warning is displayed when a permission cannot be added
+b_034,[AMS improvements - UI] Misspellings in static content
+b_035,[AMS improvement - UI] Content spills out of line
+b_036,[AMS improvement - UI] Tooltip is displayed even when hovering over empty space
+b_037,[Integrate service - API] Uniqueness checking behavior was not as expected
+b_038,[Integrate service - UI] Breadcrumb bar content is incorrect after doing navigation
+b_039,[Application integration - UI] Cursor is displayed as pointer on the disabled checkbox
+b_040,[Application integration - UI] The gap between Service accessibility title and Service table is not the same as the design
+b_041,[Application integration - UI] Static content is incorrect
+b_042,[Improvement] UI is redirected to Launcher page & displayed message if user's available app cannot be retrieved
+b_043,[Subscribe business app for tenant - UI] Static content is not the same as the design
+b_044,[Subscribe business app for tenant - API] Subscribed date is not correct
+b_045,[Geo map view - UI] Position of Selected & Unselected asset in Legend are not correct
+b_046,[Subscribe business app for tenant - UI] Tenant name is incorrect when reloading the current page in view app detail under tenant
+b_047,[Subscribe business app for tenant - UI] Message is not the same as the design
+b_048,[Subscribe business app for tenant - UI] No message is displayed if application have no permissions
+b_049,[Subscribe business app for tenant - UI] Add users dialog padding is not the same as the design
+b_050,[Subscribe business app for tenant - UI] Navigation tab bar is not the same as the design
+b_051,[Subscribe business app for tenant - UI] Long description is displayed with ellipses instead of [Read more] ad in the design
+b_052,[Subscribe business app for tenant - UI] [Cannot load...] & [Application does not exist] message are displayed at the same time if application ID does not exist
+b_053,[Subscribe business app for tenant - UI] Permission list is displayed even though application does not have any permissions
+b_054,[Subscribe business app for tenant - UI] Cannot navigate to anywhere if having error in Add user to app page
+b_055,[Inspection timeline - UI] Scrollbar is displayed in the inspection timeline if the asset has not been inspected
+b_056,[Asset map view - UI logic] The system throws error when interacting with the asset that has not been inspected
+b_057,[Asset timeline - UI] Timeline is displayed instead of message when asset timeline data cannot be loaded
+b_058,[Platform role management - UI] User is not navigate to 403 page if user is not Authorized to perform an action
+b_059,[Platform role management - UI] Message grammar incorrect
+b_060,[Platform role management - UI] UI shows both message dialog & redirect to 403 page
+b_061,[Platform role management - UI] User does not have any way to unselect a user when adding users
+b_062,[Platform role management - UI] Tenant column should not be displayed if that is in a built-in role
+b_063,[Platform role management - UI] Removing user confirmation still show up at the old position even though the user list is rearranged
+b_064,[Inspection timeline - UI] Message font size is not the same as the design
+b_065,[Tenant role management - UI] Application permissions are still show up even though they were removed
+b_066,[Tenant role management - UI] Discard dialog is showed up if status response is 403 when add app permissions
+b_067,[Subscribe application for tenant - UI] Disabled button is not work with response data
+b_068,[Configure app permissions for tenant] Toggle buttons should not be enabled for business admin
+b_069,[Improvement] Confirmation dialog is displayed after user navigates to another view
+b_070,[Configure role's permissions for tenant] The content is displayed in the small height view - Enhancement
+b_071,[Configure role's permissions for tenant] Description must be displayed with [Read more] & other field must be displayed using [...] with tooltips if  they're too long
+b_072,[Map view] The legend is disappeared few seconds before it was displayed
+b_073,[Map view] The selected segment must be displayed with both launcher/receiver
+b_074,[Configure role's permissions for tenant] Sorting in required tab works incorrectly when new optional permissions are added
+b_075,[Configure role's permissions for tenant] Popup is still visible even though the page redirects to page 403
+b_076,[Configure role's permissions for tenant] Confirmation dialog is not displayed if all app permissions are tried to remove despite error 500
+b_077,[Configure role's permissions for tenant] Spelling mistake in the confirmation message
+b_078,[Add new permission at platform level] [Empty permission list...] must be displayed instead of [No permission is defined...] if all service permissions have been already added
+b_079,[Add new permission at platform level] Solution for dynamic content (service name) in the warning dialog
+b_080,[Configure role's permissions for tenant] Warning message is displayed incorrectly
+b_081,[Configure role's permissions for tenant] Two scroll bars are displayed in tenant role's app permissions table
+b_082,[Tenant role management] The lastest added permissions are remained although remove all app permission in tenant role management
+b_083,[Tenant role management] Two scroll bar are displayed in Add app permissions to tenant role dialog
+b_084,[Map view] Segment is zoomed automatically even though it can see on the viewport
+b_085,[Map view] Cannot click in the marker to select a segment
+b_086,Segments on map should turns into marker altogether
+b_087,"When segment selection change, and map viewport adjustment is required, please consider modify map center first, avoid unnecessary map zooming adjustment"
+b_088,[2FA] Background displayed with large scale
+b_089,[2FA] Style of CONTINUE is not the same as the design
+b_090,[Map view] Cannot drag map to the segment position
+b_091,[Update timeline] The last update is covered by toolbar
+b_092,[Remove permission at platform level] Try again must be replaced if it is clicked some times (status code 500)
+b_093,[Remove permission at platform level] Remove dialog still displays despite navigating to page 403 (status code 403)
+b_094,[Remove permission at platform level] Dialog padding is not the same as the design
+b_095,[Inspection list] Default sorting of inspection list is descending by date but the option ascending by date is checked
+b_096,[Inspection list] 'Empty inspection...' must be displayed instead of 'No search result..' if the tenant has no data
+b_097,[Inspection list] Hover state of filter option is not the same as the design
+b_098,[Segment information] n/a must be displayed if there is no data
+b_099,[Filter pipeline segments] Wrong highlight color when filtered segment de-selected
+b_100,[Filter pipeline segment] The segment is highlighted although it does not match the filter
+b_101,[Platform built-in role permission configuration] Table in Add app permission dialog is broken with short value
+b_102,[Platform built-in role permission configuration] Accept button is enabled even though no permission is chosen
+b_103,[Platform built-in role permission configuration] App name is incorrect if add new permissions while opening the other app
+b_104,[Platform built-in role permission configuration] Spelling mistake in Add app permission dialog
+b_105,[Platform built-in role permission configuration] Adjust pop-up message for app permission loading error
+b_106,[Platform built-in role permission configuration] The app permissions/ app name are still displayed even though they were removed
+b_107,[Platform built-in role permission configuration] Confirmation dialog is still displayed when navigating to page 403
+b_108,[Platform built-in role permission configuration] [Add app. permissions] button is disappeared if all app permissions of a platform role are removed
+b_109,[Platform built-in role permission configuration] Confirmation dialog is displayed when clicking Discard button despite no permission is chosen
+b_110,[Filter pipeline segments] Background of error message is not the same as the design
+b_111,[Filter pipeline segments] The segments are not highlighted automatically
+b_112,[Filter pipeline segments] Cannot clear the content in time range inputs
+b_113,[Filter pipeline segments] WT inputs accept more than 3 decimals (expected: less than or equal 3)
+b_114,[Filter pipeline segments] Label of the chip for time range is incorrect if the start date & end date are the same
+b_115,[Search inspection by client line name] Selected inspection is not highlighted while Search is using
+b_116,[Filter pipeline segments] User should only select the current date or earlier
+b_117,[Search inspection by client line name] Search shows No result before showing result list when user just entered to AE
+b_118,[Search inspection by client line name] Confusing result displays after searched inspection
+b_119,"[Go to an approximate GPS location] Go to GPS works incorrectly if input data using , instead of . for decimal"
+b_120,[Edit filter chip] Other actions in filter must be disabled when an action is loading
+b_121,[Edit filter chip] Cannot remove value in the right input in WT
+b_122,[Filter pipeline segments] Message is displayed when the last filter condition is cleared
+b_123,[Map view] Cutting points are not displayed on mobile (unselected state)
+b_124,[Inspection list] [Empty....] message in Inspection list should be similar with the one in Update timeline
+b_125,[Tenant admin - notification] Unread notifications count not showing when user logs back in
+b_126,[Map view] Marker doesn't display information reflecting an active filter on hover over
+b_127,[Subscribe business app for tenant] Flow for inactive tenant
+b_128,[Tenant user management] Empty popup is displayed instead of message when create a existed user in the tenant
+b_129,[Subscribe business app for tenant] The content is displayed in the small height view
+b_130,[Tenant management] Warning message is missing space
+b_131,[Tenant detail] Empty page is displayed if BA/TA doesn't have permission to view his tenant info
+b_132,[Tenant detail] Empty popup is displayed if TA doesn't have permission to get Tenant available list
+b_133,[Create user under tenant] Missing [Dismiss] button in the warning dialog
+b_134,[Tenant detail] Loading indicator is still displayed instead of the previous page when refreshing from the warning popup
+b_135,Layout desktop breaks when using filter with small windows
+b_136,[Prioritize inspection list] No filter result message is incorrect
+b_137,[Map view] Cutting point on map are not rendered correctly after some quick drags
+b_138,[Filter chip] Dropdown icon is not the same design
+b_139,[Filter chip] The chip of Target & Vendor is displayed with no content
+b_140,[Filter pipeline segments] Some cases cannot filter by current design
+b_141,[Inspection list] Blank area appears if previous state is search + filter with no result
+b_142,[Inspection list] Apply button in inspection filter should display something to inform user that it's filtering
+b_143,[Map view] Cutting point is not rendered on Android
+b_144,"[Inspection list] if switching between landscape mode and portrait mode, the app will be reloaded"
+b_145,[Segment information] Layout does not fit on mobile
+b_146,[Search inspection by client line name] User can't see the input when typing
+b_147,[Go to GPS] User can't see the input when typing
+b_148,[Go to GPS] Go to GPS control button doesn't response on tap
+b_149,[Notification] Page content is incorrect when navigating between notifications
+b_150,[Bottom right icons] The icon disappears the first time it is clicked
+b_151,[Search inspection] History list is pushed down after opening the keyboard
+b_152,"[Contextual help] Help content becomes blank when scrolling down in any detail, then back to Help"
+b_153,Icon explain is wrong question in chapter 11
+b_154,Have tick when don't answer the question in chapter 8
+b_155,Don't have tick after answer the question in chapter 9
+b_156,Open windows when enter in number input
+b_157,Have tick when don't answer the question in chapter 19
+b_158,[Auth0 pages] Brand logo is not displayed on Auth0 pages
